@@ -10,7 +10,7 @@ import Container from '@mui/material/Container'
 import Modal from '@mui/material/Modal'
 import Stack from '@mui/material/Stack'
 import Typography from '@mui/material/Typography'
-import { deepPurple, lightBlue, lightGreen, orange, pink, red, yellow } from '@mui/material/colors'
+import { deepPurple, lightBlue, lightGreen, orange, pink, red } from '@mui/material/colors'
 
 import { useAppDispatch, useAppSelector } from '~/app/hooks'
 import LongStatChart from '~/components/statistics/LongStatChart'
