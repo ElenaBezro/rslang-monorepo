@@ -10,6 +10,7 @@
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
+    "dev": "node src/server.js",
     "stop": "node src/server.stop.js",
     "start:dev": "nodemon --inspect src/server.js",
     "lint": "eslint ./ --ignore-path .gitignore --fix",

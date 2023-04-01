@@ -33,13 +33,13 @@ function SignIn() {
 	useEffect(() => {
 		if (!emailData) return
 
-		setEmailError(validateEmail(emailData) ? '' : t('AUTH.INVALID_EMAIL'))
+		setEmailError(validateEmail(emailData) ? '' : t('AUTH.INVALID_EMAIL')!)
 	}, [emailData, t])
 
 	useEffect(() => {
 		if (!passwordData) return
 
-		setPasswordError(passwordData.length < 8 ? t('AUTH.SHORT_PASSWORD') : '')
+		setPasswordError(passwordData.length < 8 ? t('AUTH.SHORT_PASSWORD')! : '')
 	}, [passwordData, t])
 
 	useEffect(() => {
@@ -50,8 +50,8 @@ function SignIn() {
 		e.preventDefault()
 
 		if (!passwordData || !emailData) {
-			setEmailError(t('AUTH.INVALID_EMAIL'))
-			setPasswordError(t('AUTH.SHORT_PASSWORD'))
+			setEmailError(t('AUTH.INVALID_EMAIL')!)
+			setPasswordError(t('AUTH.SHORT_PASSWORD')!)
 		}
 
 		dispatch(signIn({ email: emailData, password: passwordData }))

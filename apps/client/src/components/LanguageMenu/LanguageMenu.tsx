@@ -1,7 +1,8 @@
 import { useState } from 'react'
-import { TFuncKey, useTranslation } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 
 import { IconButton, Menu, MenuItem, Typography } from '@mui/material'
+import { TFuncKey } from 'i18next'
 
 import { resources } from '~/app/setupI18n'
 

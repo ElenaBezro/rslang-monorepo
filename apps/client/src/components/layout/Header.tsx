@@ -1,5 +1,5 @@
 import { MouseEvent, useState } from 'react'
-import { TFuncKey, useTranslation } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 import { Link, NavigateOptions, useNavigate } from 'react-router-dom'
 
 import MenuIcon from '@mui/icons-material/Menu'
@@ -15,6 +15,7 @@ import Stack from '@mui/material/Stack'
 import Toolbar from '@mui/material/Toolbar'
 import Tooltip from '@mui/material/Tooltip'
 import Typography from '@mui/material/Typography'
+import { TFuncKey } from 'i18next'
 
 import { useAppSelector } from '~/app/hooks'
 import { LanguageMenu } from '~/components/LanguageMenu'

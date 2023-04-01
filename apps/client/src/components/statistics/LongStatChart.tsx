@@ -42,8 +42,8 @@ export default function LongStatChart({ longStat }: { longStat: LongStat }) {
 				<YAxis />
 				<Tooltip />
 				<Legend />
-				<Line type="monotone" name={t('STATISTIC.TOTAL_NEW_WORDS')} dataKey="newWords" stroke="#651fff" activeDot={{ r: 8 }} />
-				<Line type="monotone" name={t('STATISTIC.TOTAL_LEARNED_WORDS')} dataKey="learnedWords" stroke="#ff9100" />
+				<Line type="monotone" name={t('STATISTIC.TOTAL_NEW_WORDS')!} dataKey="newWords" stroke="#651fff" activeDot={{ r: 8 }} />
+				<Line type="monotone" name={t('STATISTIC.TOTAL_LEARNED_WORDS')!} dataKey="learnedWords" stroke="#ff9100" />
 			</LineChart>
 		</ResponsiveContainer>
 	)

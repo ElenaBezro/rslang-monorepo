@@ -1,8 +1,7 @@
 import { useCallback, useEffect, useMemo } from 'react'
-import { useDispatch } from 'react-redux'
 import { useLocation, useSearchParams } from 'react-router-dom'
 
-import { useAppSelector } from '~/app/hooks'
+import { useAppDispatch, useAppSelector } from '~/app/hooks'
 import { selectAuthIsLoggedIn } from '~/features/auth'
 import { answer, gameTimeAlmostUp, gameTimeout, loadWords, reset, selectSprintState, startSprint } from '~/features/sprint'
 import { sendUpdatedStatistic, toggleIsUpdating, updateCompletedPagesAfterGame, updateGameStatistic, updateWordStatistic } from '~/features/statistic'
@@ -13,7 +12,7 @@ interface LocationState {
 }
 
 const useSprintGame = () => {
-	const dispatch = useDispatch()
+	const dispatch = useAppDispatch()
 	const location = useLocation()
 
 	const [searchParams] = useSearchParams()

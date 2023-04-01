@@ -37,19 +37,19 @@ function SignUp() {
 	useEffect(() => {
 		if (!nameData) return
 
-		setNameError(nameData.length < 2 ? t('AUTH.NAME_TOO_SHORT') : '')
+		setNameError(nameData.length < 2 ? t('AUTH.NAME_TOO_SHORT')! : '')
 	}, [nameData, t])
 
 	useEffect(() => {
 		if (!emailData) return
 
-		setEmailError(validateEmail(emailData) ? '' : t('AUTH.INVALID_EMAIL'))
+		setEmailError(validateEmail(emailData) ? '' : t('AUTH.INVALID_EMAIL')!)
 	}, [emailData, t])
 
 	useEffect(() => {
 		if (!passwordData) return
 
-		setPasswordError(passwordData.length < 8 ? t('AUTH.SHORT_PASSWORD') : '')
+		setPasswordError(passwordData.length < 8 ? t('AUTH.SHORT_PASSWORD')! : '')
 	}, [passwordData, t])
 
 	useEffect(() => {
@@ -60,9 +60,9 @@ function SignUp() {
 		e.preventDefault()
 
 		if (!nameData || !passwordData || !emailData) {
-			setNameError(t('AUTH.NAME_TOO_SHORT'))
-			setEmailError(t('AUTH.INVALID_EMAIL'))
-			setPasswordError(t('AUTH.SHORT_PASSWORD'))
+			setNameError(t('AUTH.NAME_TOO_SHORT')!)
+			setEmailError(t('AUTH.INVALID_EMAIL')!)
+			setPasswordError(t('AUTH.SHORT_PASSWORD')!)
 		}
 
 		await dispatch(signUp({ name: nameData, email: emailData, password: passwordData }))
