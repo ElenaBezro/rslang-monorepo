@@ -1,14 +1,10 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 
-import AddCircleIcon from '@mui/icons-material/AddCircle'
-import LocalFireDepartmentIcon from '@mui/icons-material/LocalFireDepartment'
-import PercentIcon from '@mui/icons-material/Percent'
 import Card from '@mui/material/Card'
 import CardContent from '@mui/material/CardContent'
 import List from '@mui/material/List'
 import ListItem from '@mui/material/ListItem'
-import ListItemIcon from '@mui/material/ListItemIcon'
 import ListItemText from '@mui/material/ListItemText'
 import Typography from '@mui/material/Typography'
 
