@@ -19,6 +19,8 @@
   "engines": {
     "node": ">=14.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "eslint-plugin-prettier": "^4.0.0"
+  },
   "packageManager": "npm@9.5.1"
 }
