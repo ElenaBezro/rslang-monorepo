@@ -1,0 +1,160 @@
+{
+	"HEADER": {
+		"LOGO": "RS Lang",
+		"HOME": "Home",
+		"TEXTBOOK": "Textbook",
+		"STATISTIC": "Statistic",
+		"GAMES": "Games",
+		"SIGN_UP": "Sign Up",
+		"SIGN_IN": "Sign In",
+		"GAME": {
+			"AUDIOCALL": "Audiocall",
+			"SPRINT": "Sprint"
+		},
+		"OPEN_ACCOUNT": "Open Account",
+		"WELCOME": "Hello {{name}}!"
+	},
+
+	"HOME": {
+		"TITLE": "RS Lang",
+		"DESCRIPTION": "Who said education was boring?",
+
+		"ADVANTAGES": {
+			"SPRINT": "Sprint",
+			"SPRINT_DESC": "Games make learning fun",
+			"TEXTBOOK": "Textbook",
+			"TEXTBOOK_DESC": "Dictionary stores all the words you need",
+			"AUDIOCALL": "Audiocall",
+			"AUDIOCALL_DESC": "Improve your word listening skills",
+			"STATISTIC": "Statistic",
+			"STATISTIC_DESC": "Track your progress"
+		},
+
+		"PHILOSOPHY": {
+			"TITLE": "Check out the benefits of the app",
+			"TEXTBOOK": "Textbook",
+			"TEXTBOOK_DESC": "More than 3500 thousand words to learn, divided into sections according to your level with easy navigation.",
+			"DICTIONARY": "Difficult words",
+			"DICTIONARY_DESC": "Create your own personal dictionary for learning words - add words you want to pay special attention to and delete if you already know the word.",
+			"STATISTIC": "Statistic",
+			"STATISTIC_DESC": "Track your progress in individual statistics, set goals and get inspired to achieve new results every day!",
+			"GAMES": "Games",
+			"GAMES_DESC": "Two exciting games for the development of memorizing words and improving listening skills."
+		},
+
+		"ABOUT_US": "About us",
+		"FIRST_DEVELOPER": {
+			"NICKNAME": "Lily",
+			"TASKS_DESCRIPTION": "Developed the game “Audiocall”, the page of the textbook and statistics saving functionality, added user authorization, implemented work with API."
+		},
+		"SECOND_DEVELOPER": {
+			"NICKNAME": "Lena",
+			"TASKS_DESCRIPTION": "Developed the game “Sprint” and the design of the home page, added the application localization."
+		}
+	},
+
+	"TEXTBOOK": {
+		"TITLE": "Textbook",
+		"FULLY_LEARNED_SECTION": "Fully learned section!",
+		"OPEN_SPRTING_GAME": "Sprint",
+		"OPEN_AUDIO_CALL_GAME": "Audiocall",
+		"ADD_TO_LEARNED": "Add to learned",
+		"ADD_TO_DIFFICULT": "Add to difficult",
+		"REMOVED_FROM_DIFFICULT": "Remove from difficult",
+
+		"CORRECT_ANSWER_COUNT": "Correct answers: {{count}}",
+		"INCORRECT_ANSWER_COUNT": "Incorrect answers: {{count}}",
+		"LEARNED": "Learned",
+		"DIFFICULT": "Difficult"
+	},
+
+	"STATISTIC": {
+		"TITLE": "Statistic page",
+		"SHORT_TITLE": "Statistics for today",
+		"LONG_TITLE": "Statistics for all time",
+		"TOTAL_CORRECT_WORDS_PERCENT": "Total correct words percent",
+		"TOTAL_LEARNED_WORDS": "Total learned words",
+		"TOTAL_NEW_WORDS": "Total new words",
+		"NEW_WORDS": "New words: {{words}}",
+		"LEARNED_WORDS": "Learned words: {{words}}",
+		"CORRECT_WORDS_PERCENT": "Correct words percent: {{percent}} %",
+		"LONGEST_CORRECT_SERIES": "Longest correct words series {{series}}",
+		"MODAL_TITLE": "Are you sure you want to reset your statistics?",
+		"MODAL_DESCRIPTION": "It will delete all your statistics for today and for a long period!",
+		"MODAL_DESCRIPTION_SHORT": "but it won't reset word stats",
+		"MODAL_AGREE": "Yes, reset it",
+		"MODAL_CANCEL": "Cancel",
+		"START_DATE": "Start of learning",
+		"DIFFICULT_WORDS_EMPTY_PAGE": "You don't have difficult words yet..."
+	},
+
+	"AUDIOCALL": {
+		"TITLE": "Audiocall",
+		"DESCRIPTION": "Improve your word listening skills",
+		"NEXT": "Next",
+		"SKIP": "Skip",
+		"CONTROLS_1": "Use the mouse to select",
+		"CONTROLS_2": "Use keys 1 to 5 to select an answer",
+		"CONTROLS_3": "Use the Enter key to move to the next word",
+		"CONTROLS_4": "Use the Space key to repeat word's audio"
+	},
+
+	"SPRINT": {
+		"TITLE": "Sprint",
+		"DESCRIPTION": "How many words you can guess in {{count}} seconds?",
+		"SCORE_PER_WORD": "Score points per correct answer {{count}}",
+		"CONTROLS_1": "Use the mouse to select",
+		"CONTROLS_2": "Use the left and right keys to select an answer"
+	},
+
+	"LEVEL_SELECTION": {
+		"SELECT_LEVEL": "Select level",
+		"PLAY": "Play",
+		"GROUP": "Group {{count}}",
+		"DIFFICULT": "Difficult"
+	},
+
+	"GAME_RESULT_DIALOG": {
+		"TITLE": "Your results:",
+		"CORRECT": "Correct",
+		"INCORRECT": "Incorrect"
+	},
+
+	"AUTH": {
+		"SIGN_UP": "Sign Up",
+		"SIGN_IN": "Sign In",
+		"SIGN_OUT": "Sign Out",
+
+		"SIGN_IN_PROMPT": "Already have an account?",
+		"SIGN_UP_PROMPT": "Don't have an account?",
+
+		"NAME": "Name",
+		"EMAIL": "Email",
+		"PASSWORD": "Password",
+
+		"NAME_TOO_SHORT": "Name is too short!",
+		"INVALID_EMAIL": "Invalid E-mail!",
+		"SHORT_PASSWORD": "Password is too short!",
+
+		"NOT_ALLOWED": "You need to login to view this page!"
+	},
+
+	"TIMER": {
+		"TIME_LEFT_one": "{{count}} second left",
+		"TIME_LEFT_other": "{{count}} seconds left"
+	},
+
+	"COMMON": {
+		"BUTTON": {
+			"YES": "Yes",
+			"NO": "No",
+			"RESET_STATISTICS": "Reset statistics"
+		},
+		"LOADING": "Loading..."
+	},
+
+	"LANGUAGES": {
+		"EN": "English",
+		"RU": "Русский"
+	}
+}
